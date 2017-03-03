@@ -22,7 +22,7 @@ A very simple way to use,
 
 create a map using leaflet map and layer to that map as below;
 
-var map = L.map('yourDivIdForMap').setview(['lat,lang],'zoomlevel');
+var map = L.map('yourDivIdForMap').setview(['lat,lang'],'zoomlevel');
 
 map.addLayer(gStreets);
 
