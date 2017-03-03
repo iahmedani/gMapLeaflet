@@ -1,6 +1,7 @@
 # gMapLeaflet
 Google map layers for Leaflet without api token.
-Introduction:
+
+
 Basic idea is to enable google map without using api token or key.
 --------------------------------------------------------------------
 
@@ -16,7 +17,7 @@ gTerrain for googlemap havind terrain view;
 Few more will shortly be added latter .......
 
 Usage:
-
+-------
 A very simple way to use,
 
 create a map using leaflet map and layer to that map as below;
