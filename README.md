@@ -12,9 +12,9 @@ This library contains 4 types of google map layers listed below,
 gStreets for googlemap street;
 gHybrid for googlemap Hybrid (having satellite and street view together);
 gSatellite for googlemap Satellite view;
-gTerrain for googlemap havind terrain view;
+gTerrain for googlemap having terrain view;
 
-Few more will shortly be added latter .......
+Still more to come... 
 
 Usage:
 -------
