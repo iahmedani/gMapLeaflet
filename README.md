@@ -9,10 +9,10 @@ A simple js file which helps you to create map with google map layers using leaf
 
 This library contains 4 types of google map layers listed below,
 
-gStreets for googlemap street;
-gHybrid for googlemap Hybrid (having satellite and street view together);
-gSatellite for googlemap Satellite view;
-gTerrain for googlemap having terrain view;
+1. gStreets for googlemap street;
+2. gHybrid for googlemap Hybrid (having satellite and street view together);
+3. gSatellite for googlemap Satellite view;
+4. gTerrain for googlemap having terrain view;
 
 Still more to come... 
 
