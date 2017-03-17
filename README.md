@@ -1,4 +1,4 @@
-# gMapLeaflet
+# Google Maps Layers for Leafletjs
 Google map layers for Leaflet without api token.
 
 
