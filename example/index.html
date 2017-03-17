@@ -17,8 +17,21 @@
 	<body>
 		<div id="map"></div>
 		<script>
-			var map = L.map('map').setView([15,16],3);
-			map.addLayer(gStreets);				
+			var map = L.map('map', {
+    				center: [39.73, -104.99],
+				zoom: 10,
+				layers: [gStreets]
+				});
+			/*var map = L.map('map').setView([15,16],3);
+			map.addLayer(gStreets);	*/
+			var baseMaps = {
+			    "Street": gStreets,
+			    "Hybrid": gHybrid,
+			    "Satellite": gSatellite,
+			    "Terrain": gTerrain,
+			};
+			L.control.layers(baseMaps).addTo(map);
+			
 		</script>
 	</body>
 </html>
